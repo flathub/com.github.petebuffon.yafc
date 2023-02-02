@@ -1,6 +1,6 @@
 app-id: com.github.petebuffon.yafc
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: YAFC
 finish-args:
@@ -22,7 +22,7 @@ modules:
       - install -Dp -m 644 com.github.petebuffon.yafc-128.svg /app/share/icons/hicolor/scalable/apps/com.github.petebuffon.yafc.svg
     sources:
       - type: "file"
-        url: "https://github.com/petebuffon/yafc/releases/download/v0.5.8/YAFC"
+        url: "https://github.com/petebuffon/yafc/releases/download/v0.6.0/YAFC"
         sha256: "376976259772ae355aab92b3c1b391be031927d8bf89459e79e7ea8d5dd36a19"
       - type: "file"
         path: "com.github.petebuffon.yafc.desktop"
