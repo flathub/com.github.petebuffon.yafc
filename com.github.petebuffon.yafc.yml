@@ -23,7 +23,7 @@ modules:
     sources:
       - type: "file"
         url: "https://github.com/petebuffon/yafc/releases/download/v0.6.0/YAFC"
-        sha256: "376976259772ae355aab92b3c1b391be031927d8bf89459e79e7ea8d5dd36a19"
+        sha256: "25a50e7ee23064c041984ffeb378560b0b4a716ab199a2b26991a6413f14537f"
       - type: "file"
         path: "com.github.petebuffon.yafc.desktop"
       - type: "file"
