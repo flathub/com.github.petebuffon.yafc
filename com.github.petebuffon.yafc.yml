@@ -11,6 +11,7 @@ finish-args:
   - "--filesystem=~/.steam/steam/steamapps/common/Factorio/data:ro"
   - "--filesystem=~/.var/app/com.valvesoftware.Steam:ro"
   - "--persist=.yafc"
+  - "--env=DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true"
 modules:
   - name: yafc
     buildsystem: simple
