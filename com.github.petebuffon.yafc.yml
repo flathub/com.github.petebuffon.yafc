@@ -16,14 +16,15 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir .yafc
-      - install -Dp -m 755 YAFC /app/bin/YAFC
+      - mkdir /app/bin
+      - tar xfvz yafc.tar.gz -C /app/bin
       - install -Dp -m 644 com.github.petebuffon.yafc.desktop /app/share/applications/com.github.petebuffon.yafc.desktop
       - install -Dp -m 644 com.github.petebuffon.yafc.appdata.xml /app/share/appdata/com.github.petebuffon.yafc.appdata.xml
       - install -Dp -m 644 com.github.petebuffon.yafc-128.svg /app/share/icons/hicolor/scalable/apps/com.github.petebuffon.yafc.svg
     sources:
       - type: "file"
-        url: "https://github.com/petebuffon/yafc/releases/download/v0.6.0/YAFC"
-        sha256: "25a50e7ee23064c041984ffeb378560b0b4a716ab199a2b26991a6413f14537f"
+        url: "https://github.com/petebuffon/yafc/releases/download/v0.6.0/yafc.tar.gz"
+        sha256: "0eb5edc0b6871922059815ae4fb52bf508ea3b443519996823ca62b19865af6d"
       - type: "file"
         path: "com.github.petebuffon.yafc.desktop"
       - type: "file"
