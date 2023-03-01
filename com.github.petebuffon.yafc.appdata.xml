@@ -8,7 +8,7 @@
   <url type="homepage">https://github.com/petebuffon/yafc</url>
   <developer_name>petebuffon</developer_name>
   <update_contact>pabuffon@gmail.com</update_contact>
-  <url type="bugtracker">https://github.com/petebuffon/yafc</url>
+  <url type="bugtracker">https://github.com/petebuffon/yafc/issues</url>
   <launchable type="desktop-id">com.github.petebuffon.yafc.desktop</launchable>
   <project_license>GPL-3.0-only</project_license>
   <releases>
