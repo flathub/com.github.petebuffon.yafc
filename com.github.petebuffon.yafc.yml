@@ -12,6 +12,8 @@ finish-args:
   - --filesystem=~/.var/app/com.valvesoftware.Steam:ro
   - --persist=.yafc
 modules:
+  - shared-modules/SDL2/SDL2_image.json
+  - shared-modules/SDL2/SDL2_ttf.json
   - name: yafc
     buildsystem: simple
     build-commands:
